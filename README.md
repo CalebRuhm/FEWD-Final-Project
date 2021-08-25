@@ -1,11 +1,11 @@
 # FinalProject
 Albany Can Code Final Project - Group 4
 
-Home page - 
-Product page - 
-Order page -
-About company page –
-Contact / Careers page – 
+Home page - Randy
+Product page - Caleb
+Order page - Caleb
+About company page – Christian
+Contact / Careers page – Laura
 
 GitHub Repository - https://github.com/CalebRuhm/FinalProject.git
 Navbar –
