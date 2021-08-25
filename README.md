@@ -2,7 +2,7 @@
 Albany Can Code Final Project - Group 4
 
 Home page - Randy
-Product page - Caleb
+Product page - Everyone
 Order page - Caleb
 About company page – Christian
 Contact / Careers page – Laura
