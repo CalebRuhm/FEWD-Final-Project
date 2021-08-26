@@ -8,7 +8,7 @@ About company page – Christian
 Contact / Careers page – Laura
 
 GitHub Repository - https://github.com/CalebRuhm/FinalProject.git
-Navbar –
+Navbar – CV
 Footer –
 Design – 
 
