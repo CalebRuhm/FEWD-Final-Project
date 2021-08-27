@@ -13,3 +13,7 @@ Footer –
 Design – 
 
 Product is Mr Fusion Home Energy Reactor
+
+Fusion Industries is a manufacturer of nuclear fusion energy reactors. This includes a Mr. Fusion consumer product line, featuring small-scale reactors capable of powering homes and vehicles.
+
+
