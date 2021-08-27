@@ -17,3 +17,7 @@ li a {
 li a:hover {
     background-color: coral;
 }
+.logo {
+    position: fixed;
+    height: 6.8%;
+}
