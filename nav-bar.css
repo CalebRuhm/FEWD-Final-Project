@@ -49,4 +49,5 @@ li a:hover {
 
 .fa-atom {
     color: rgb(64, 128, 214);
+    transform: scale(1.3);
 }

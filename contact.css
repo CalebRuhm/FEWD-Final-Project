@@ -10,3 +10,28 @@
 html {
     scroll-behavior: smooth;
 }
+
+.footer {position: fixed; 
+    width:100%;
+     left:0;
+     bottom:0;
+     text-align: center;
+     background-color: rgb(185, 173, 122, 0.993);}
+
+div {
+    text-align: center;
+    background-color: rgb(185,173, 122, 0.993);
+    padding: 2px 2px; position: relative;
+}
+div.one {
+    background-color: sienna;
+    text-align: center;
+}
+
+img {
+    padding-bottom: 20px;
+}
+form {
+    position:absolute;
+    margin-right: 50px;
+}
