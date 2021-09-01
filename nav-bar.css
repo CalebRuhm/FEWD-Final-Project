@@ -40,13 +40,7 @@ li a:hover {
     transition: 0.3s ease;
 }
 
-.icon {
-    display: inline-block;
-    position: fixed;
-    text-align: left;
-    font-size: 1.2rem;
-}
-
 .fa-atom {
-    color: rgb(64, 128, 214);
+    position: fixed;
+    z-index: -1;
 }
