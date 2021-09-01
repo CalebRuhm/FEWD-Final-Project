@@ -14,24 +14,99 @@ html {
 .order {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 20px
+    background-color: rgb(235, 148, 148);
+
+}
+
+.order2 {
+    display: flex;
+    justify-content: center;
+    width: 66%;
 }
 
 .shipping {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    width: 50%;
+    padding: 20px;
 }
 
-.billing {
+.shipping h2 {
+    padding: 10px 0px;
+    font-weight: 900;
+}
+
+.shipping label {
+    padding: 5px;
+    font-weight: 500;
+}
+
+.shipping input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.shipping ::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.payments {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    padding: 20px;
+    width: 50%;
 }
 
 .payment {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+}
+
+.payment h2 {
+    padding: 10px 0px;
+    font-weight: 900;
+}
+
+.payment label {
+    padding: 5px;
+    font-weight: 500;
+}
+
+.payment input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.payment ::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.payment2 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+
+.payment2 label {
+    padding: 5px;
+    font-weight: 500;
+}
+
+.payment2 input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.payment2 ::placeholder {
+    color: rgba(255, 255, 255, 0.6)
 }

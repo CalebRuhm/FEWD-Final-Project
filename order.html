@@ -6,71 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Page</title>
     <link rel="stylesheet" href="order.css">
-    <link rel = "stylesheet" href = "nav-bar.css">
+    <link rel="stylesheet" href="nav-bar.css">
     <script src="https://kit.fontawesome.com/8e27295d04.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href = "contact.html">Contact</a></li>
-            <li><a href = "order.html">Order</a></li>
-            <li><a href = "about.html">About</a></li>
-            <li><a href = "product.html">Product</a></li>
-            <li><a href = "index.html">Home</a></li>
-            <li class = "icon"><a href = "index.html"><i class="fas fa-atom"></i></a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li class="icon"><a href="index.html"><i class="fas fa-atom"></i></a></li>
         </ul>
     </nav>
 
     <div class="order">
-        <div class="shipping">
-            <h2>Shipping Address</h2>
-            <label for="fullname">Full Name</label>
-            <input type="text" id="fullname" placeholder="Marty McFly">
-            <label for="address">Address</label>
-            <input type="text" id="address" placeholder="88 Speed Lane">
-            <label for="city">City</label>
-            <input type="text" id="city" placeholder="Hill Valley">
-            <label for="state">State</label>
-            <input type="text" id="state" placeholder="California">
-            <label for="zip">Zip</label>
-            <input type="text" id="zip" placeholder="94102">
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="drbrown@futuremail.com">
-        </div>
-        <div class="billing">
-            <h2>Billing Address</h2>
-            <label for="fullname">Full Name</label>
-            <input type="text" id="fullname" placeholder="Marty McFly">
-            <label for="address">Address</label>
-            <input type="text" id="address" placeholder="88 Speed Lane">
-            <label for="city">City</label>
-            <input type="text" id="city" placeholder="Hill Valley">
-            <label for="state">State</label>
-            <input type="text" id="state" placeholder="California">
-            <label for="zip">Zip</label>
-            <input type="text" id="zip" placeholder="94102">
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="drbrown@futuremail.com">
-        </div>
-        <div class="payment">
-            <h2>Payment Information</h2>
-            <label for="creditcard">Credit Card Number</label>
-            <input type="text" id="creditcard" placeholder="5555-6666-7777-8888">
-            <label for="cardname">Name On Card</label>
-            <input type="text" id="cardname" placeholder="Dr. Emmett Brown">
-            <label for="expmonth">Exp Month</label>
-            <div class="year">
-                <input type="text" id="expmonth" placeholder="October">
-                <label for="expyear">Exp Year</label>
-                <input type="text" id="expyear" placeholder="2021">
-                <label for="cvv">CVV</label>
-                <input type="text" inputmode="cvv" placeholder="123">
+        <div class="order2">
+            <div class="shipping">
+                <h2>Shipping Address</h2>
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Marty McFly">
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="88 Speed Lane">
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="Hill Valley">
+                <label for="state">State</label>
+                <input type="text" id="state" placeholder="California">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" placeholder="94102">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="drbrown@futuremail.com">
+            </div>
+            <div class="payments">
+                <div class="payment">
+                    <h2>Payment Information</h2>
+                    <label for="creditcard">Credit Card Number</label>
+                    <input type="text" id="creditcard" placeholder="5555-6666-7777-8888">
+                    <label for="cardname">Name On Card</label>
+                    <input type="text" id="cardname" placeholder="Dr. Emmett Brown">
+                </div>
+                <div class="payment2">
+                    <label for="expmonth">Exp Month</label>
+                    <input type="text" id="expmonth" placeholder="October">
+                    <label for="expyear">Exp Year</label>
+                    <input type="text" id="expyear" placeholder="2021">
+                    <label for="cvv">CVV</label>
+                    <input type="text" inputmode="cvv" placeholder="123">
+                </div>
             </div>
         </div>
     </div>
-
-
 </body>
 
 </html>
