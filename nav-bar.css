@@ -41,6 +41,9 @@ li a:hover {
 }
 
 .fa-atom {
-    position: fixed;
-    z-index: -1;
+    color: #fff;
+}
+
+.icon {
+    position: absolute;
 }
