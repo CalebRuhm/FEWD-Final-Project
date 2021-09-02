@@ -1,9 +1,7 @@
 # FinalProject
 Albany Can Code Final Project - Group 4
-<<<<<<< HEAD
 Just a test post. CV 8/24
 laura add contact form
-=======
 
 Home page - Randy
 Product page - Everyone
@@ -27,4 +25,3 @@ Use >
 
 
 * > is a selector for everything on the page. Use this to set universal font family, margin, padding ect. Keeps things concise and neat.
->>>>>>> 7f5257948c0e2394f2eb992d2743ffc6e59f43e1
