@@ -11,6 +11,51 @@ html {
     scroll-behavior: smooth;
 }
 
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(82, 82, 92);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    text-underline-offset: 0.1rem;
+    transition: 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(255, 110, 110);
+    text-decoration: underline rgba(255, 255, 255, 1);
+    transition: 0.3s ease;
+}
+
+.icon {
+    position: absolute;
+    font-size: 2em;
+    margin: 0.5rem;
+}
+
+.fas {
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.fas:hover {
+    font-size: 2.3rem;
+    transition: 0.2s ease;
+}
+
 .product-heading {
     text-align: center;
     margin: 2rem;
