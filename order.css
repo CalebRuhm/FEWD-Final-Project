@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 * {
     padding: 0;
@@ -11,11 +12,125 @@ html {
     scroll-behavior: smooth;
 }
 
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(82, 82, 92);
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    text-underline-offset: 0.1rem;
+    transition: 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(255, 110, 110);
+    text-decoration: underline rgba(255, 255, 255, 1);
+    transition: 0.3s ease;
+}
+
+.icon {
+    position: absolute;
+    font-size: 2em;
+    margin: 0.5rem;
+}
+
+.fas {
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.fas:hover {
+    font-size: 2.3rem;
+    transition: 0.2s ease;
+}
+
+body {
+    background-color: rgb(221, 221, 255);
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.background img {
+    width: 200px;
+}
+
+.background h2 {
+    font-size: 5em;
+    font-family: 'Bangers', cursive;
+    color: #000;
+    text-shadow: 3px 3px 1px #fff;
+}
+
+.orderitems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.orderitem1, .orderitem2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.item img {
+    width: 150px;
+}
+
+.itemtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.itemtext h2 {
+    font-weight: 900;
+}
+
+.itemtext p {
+    font-weight: 500;
+    padding: 2px 0px;
+}
+
+.itemtext label {
+    padding: 2px 0px;
+    font-weight: 500;
+}
+
+.itemtext input {
+    width: 40%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
 .order {
     display: flex;
     justify-content: center;
-    background-color: rgb(235, 148, 148);
-
+    margin-bottom: 30px;
 }
 
 .order2 {
@@ -109,4 +224,17 @@ html {
 
 .payment2 ::placeholder {
     color: rgba(255, 255, 255, 0.6)
+}
+
+input[type=submit] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type=submit]:active {
+    background-color: rgb(70, 70, 70);
 }

@@ -1,18 +1,57 @@
-<<<<<<< HEAD
-.footer {position: fixed; 
-    width:100%;
-     left:0;
-     bottom:0;
-     text-align: center;
-     background-color: rgb(185, 173, 122, 0.993);}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
 
+html {
+    scroll-behavior: smooth;
+}
 
-div {text-align: center;
-background-color: rgb(185,173, 122, 0.993); padding: 2px 2px; position: relative;}
-div.one {background-color: sienna;text-align: center;}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(82, 82, 92);
+}
 
-img {padding-bottom: 20px;}
-form  {position:fixed; flex-direction: column;}
-=======
->>>>>>> fed38d50ebb18c7ff374945d8a5fa5a4bc03cf6f
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    text-underline-offset: 0.1rem;
+    transition: 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(255, 110, 110);
+    text-decoration: underline rgba(255, 255, 255, 1);
+    transition: 0.3s ease;
+}
+
+.icon {
+    position: absolute;
+    font-size: 2em;
+    margin: 0.5rem;
+}
+
+.fas {
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.fas:hover {
+    font-size: 2.3rem;
+    transition: 0.2s ease;
+}

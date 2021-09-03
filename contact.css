@@ -11,27 +11,80 @@ html {
     scroll-behavior: smooth;
 }
 
-.footer {position: fixed; 
-    width:100%;
-     left:0;
-     bottom:0;
-     text-align: center;
-     background-color: rgb(185, 173, 122, 0.993);}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(82, 82, 92);
+}
 
-div {
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    text-underline-offset: 0.1rem;
+    transition: 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgb(255, 110, 110);
+    text-decoration: underline rgba(255, 255, 255, 1);
+    transition: 0.3s ease;
+}
+
+.icon {
+    position: absolute;
+    font-size: 2em;
+    margin: 0.5rem;
+}
+
+.fas {
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.fas:hover {
+    font-size: 2.3rem;
+    transition: 0.2s ease;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1 {
     text-align: center;
     background-color: rgb(185,173, 122, 0.993);
     padding: 2px 2px; position: relative;
 }
-div.one {
+
+.one {
     background-color: sienna;
     text-align: center;
 }
 
-img {
-    padding-bottom: 20px;
+.img {
+    padding: 20px;
 }
-form {
-    position:absolute;
-    margin-right: 50px;
+.form {
+
 }
+
+.footer {
+    position: fixed; 
+    width:100%;
+    left:0;
+    bottom:0;
+    text-align: center;
+    background-color: rgb(185, 173, 122, 0.993);}
