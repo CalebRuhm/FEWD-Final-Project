@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 * {
     padding: 0;
@@ -56,12 +57,34 @@ li a:hover {
     transition: 0.2s ease;
 }
 
+body {
+    background-color: rgb(221, 221, 255);
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.background img {
+    width: 200px;
+}
+
+.background h2 {
+    font-size: 5em;
+    font-family: 'Bangers', cursive;
+    color: #000;
+    text-shadow: 3px 3px 1px #fff;
+}
+
 .orderitems {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2em;
-    background-color: rgb(255, 110, 110);
 }
 
 .orderitem1, .orderitem2 {
@@ -71,7 +94,7 @@ li a:hover {
 }
 
 .item img {
-    width: 100px;
+    width: 150px;
 }
 
 .itemtext{
@@ -81,10 +104,33 @@ li a:hover {
     padding: 2rem;
 }
 
+.itemtext h2 {
+    font-weight: 900;
+}
+
+.itemtext p {
+    font-weight: 500;
+    padding: 2px 0px;
+}
+
+.itemtext label {
+    padding: 2px 0px;
+    font-weight: 500;
+}
+
+.itemtext input {
+    width: 40%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
 .order {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 110, 110);
+    margin-bottom: 30px;
 }
 
 .order2 {

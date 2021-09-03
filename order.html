@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Page</title>
     <link rel="stylesheet" href="order.css">
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/8e27295d04.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,27 +25,34 @@
         </ul>
     </nav>
 
+    <div class="background">
+        <img src="/img/fusionbkg2.png" alt="Fusion Industries">
+        <h2>Order Now!</h2>
+    </div>
+
     <div class="orderitems">
         <div class="orderitem1">
             <div class="item">
-                <img src="/img/item1.jpeg" alt="Small Mr. Fusion">
+                <img src="/img/item2.png" alt="Small Mr. Fusion">
             </div>
             <div class="itemtext">
-                <h2>Item 1</h2>
-                <p>Something about item 1</p>
+                <h2>Mr. Fusion Mobile</h2>
+                <p>Automobile power source</p>
+                <p>Best for Deloreans</p>
                 <label for="quantity">Quantity:</label>
-                <input type="number" id="quantity" min="0" max="100">
+                <input type="number" id="quantity" placeholder="1">
             </div>
         </div>
         <div class="orderitem2">
             <div class="item">
-                <img src="/img/item1.jpeg" alt="Big Mr.Fusion">
+                <img src="/img/item2.png" alt="Big Mr.Fusion">
             </div>
             <div class="itemtext">
-                <h2>Item 2</h2>
-                <p>Something about item 2</p>
+                <h2>Mr. Fusion Home</h2>
+                <p>Whole home power source</p>
+                <p>Up to 15,000 sq. ft</p>
                 <label for="quantity">Quantity:</label>
-                <input type="number" id="quantity" min="0" max="100">
+                <input type="number" id="quantity" placeholder="1">
             </div>
         </div>
     </div>
@@ -84,11 +92,12 @@
                     <input type="text" id="cvv" placeholder="123">
                 </div>
                 <div class="submit">
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onclick="myFunction()">
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
