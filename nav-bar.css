@@ -41,6 +41,7 @@ li a:hover {
 }
 
 .fa-atom {
-    position: fixed;
-    z-index: -1;
+    position: relative;
+    display: inline-block;
+    text-align: left;
 }
