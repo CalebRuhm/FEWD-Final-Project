@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(221, 221, 255);
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
