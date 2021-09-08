@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(221, 221, 255);
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -54,4 +58,17 @@ li a:hover {
 .fas:hover {
     font-size: 2.3rem;
     transition: 0.2s ease;
+}
+
+
+.footer {
+    position: fixed; 
+    width:100%;
+    padding: 5px;
+    left:0;
+    bottom:0;   
+    text-align: center;
+    background-color: rgb(82, 82, 92);
+    color: #fff;
+    font-style: italic;
 }
