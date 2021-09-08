@@ -40,17 +40,6 @@ li a:hover {
     transition: 0.3s ease;
 }
 
-.fa-atom {
-<<<<<<< HEAD
-    position: relative;
-    display: inline-block;
-    text-align: left;
-}
-=======
-    color: #fff;
-}
-
 .icon {
     position: absolute;
 }
->>>>>>> 77e77fd1e2516d91434b5299dc351c6b27628837
