@@ -264,3 +264,15 @@ input[type=submit]:active {
     margin: 0px 20px 30px 20px;
 }
 
+.footer {
+    position: fixed; 
+    width:100%;
+    padding: 10px;
+    left:0;
+    bottom:0;
+    text-align: center;
+    background-color: rgb(82, 82, 92);
+    color: #fff;
+    font-style: italic;
+}
+

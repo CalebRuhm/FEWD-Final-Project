@@ -11,6 +11,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(221, 221, 255);
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -65,13 +69,19 @@ li a:hover {
 
 .h1 {
     text-align: center;
-    background-color: rgb(185,173, 122, 0.993);
-    padding: 2px 2px; position: relative;
+    margin: 20px 0px 0px 0px;
+}
+
+.h1 h1 {
+    font-weight: 900;
 }
 
 .one {
-    background-color: sienna;
     text-align: center;
+}
+
+.one h2 {
+    font-weight: 500;
 }
 
 .img {
@@ -84,7 +94,11 @@ li a:hover {
 .footer {
     position: fixed; 
     width:100%;
+    padding: 10px;
     left:0;
     bottom:0;
     text-align: center;
-    background-color: rgb(185, 173, 122, 0.993);}
+    background-color: rgb(82, 82, 92);
+    color: #fff;
+    font-style: italic;
+}
