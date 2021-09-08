@@ -101,12 +101,13 @@ li a:hover {
 }
 
 .about-logo {
-    padding-top: 40px;
+    margin: 20px;
     width: 15%;
+    
 }
 
 .footer {
-    position: fixed; 
+    position: relative; 
     width:100%;
     padding: 10px;
     left:0;

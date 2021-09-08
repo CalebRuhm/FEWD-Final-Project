@@ -87,8 +87,22 @@ li a:hover {
 .img {
     padding: 20px;
 }
-.form {
 
+.form {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.form input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form label {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .footer {
